@@ -37,6 +37,6 @@ jobs:
         with:
           context: .
           push: true
-           tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          tags: ${{ env.REGISTRY }}/priyansh-singh-mbt/test-2:latest
           #tags: ${{ env.REGISTRY }}/pradumnasaraf/hello-world:latest
           labels: ${{ steps.meta.outputs.labels }}
